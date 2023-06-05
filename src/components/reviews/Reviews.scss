@@ -1,0 +1,25 @@
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+
+  &__stars {
+    img {
+      width: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  &__customer {
+    p {
+      color: #383e56;
+      font-size: 11px;
+      font-family: "JostBold";
+    }
+  }
+
+  &__logo {
+    height: 25px;
+    margin-top: 10px;
+  }
+}

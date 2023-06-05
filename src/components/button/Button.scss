@@ -1,0 +1,14 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ff0000;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px #6f818d;
+  span {
+    font-family: "JostSemiBold";
+    color: #ffffff;
+    font-size: 14px;
+  }
+}

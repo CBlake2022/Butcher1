@@ -1,0 +1,53 @@
+.company {
+  margin-top: 25px;
+  &__container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  &__detail {
+    margin-bottom: 20px;
+    h1 {
+      font-family: "JostBold";
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: "JostRegular";
+      color: #656d89;
+    }
+  }
+
+  &__video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  &__embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 600px) {
+    background-image: url("../../assets/images/pink-element.png"),
+      url("../../assets/images/yellow-element.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+    background-size: 350px 400px, 100px 100px;
+
+    &__detail {
+      display: flex;
+      gap: 100px;
+      p {
+        max-width: 500px;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.process {
+  margin-top: 100px;
+  padding: 10px;
+
+  &__container {
+    text-align: center;
+  }
+
+  &__caption {
+    font-family: "HandWritting";
+    color: #f8ba12;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+
+  &__sub {
+    font-family: "JostBold";
+    font-size: 25px;
+  }
+
+  &__descr {
+    font-family: "JostRegular";
+    font-size: 15px;
+    color: #989fbc;
+  }
+
+  &__ordercards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    line-height: 25px;
+
+    p {
+      font-family: "JostRegular";
+      color: #989fbc;
+      font-size: 15px;
+    }
+  }
+
+  &__images {
+    margin-bottom: 10px;
+
+    background-repeat: no-repeat;
+    background-position: left 85px top 0px;
+    background-size: contain;
+
+    &--pink {
+      background-image: url("../../assets/images/pink-circle.png");
+    }
+
+    &--blue {
+      background-image: url("../../assets/images/blue-circle.png");
+    }
+
+    &--green {
+      background-image: url("../../assets/images/green-circle.png");
+    }
+  }
+
+  &__orderstatus {
+    font-family: "JostSemiBold";
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 600px) {
+    background-image: url("../../assets/images/yellow-small-element.png"),
+      url("../../assets/images/pink-small-element.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 70px left, top 90px right 10px;
+    background-size: 30px, 30px;
+    margin-bottom: 100px;
+
+    &__ordercards {
+      flex-direction: row;
+    }
+
+    &__container {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+}

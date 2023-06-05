@@ -1,0 +1,61 @@
+.testimonials {
+  &__container {
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 30px 0 30px;
+    max-width: 80%;
+  }
+
+  &__image {
+    img {
+      width: 250px;
+      border-radius: 50%;
+    }
+  }
+
+  &__stars {
+    img {
+      width: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  h1 {
+    font-family: "JostSemiBold";
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-family: "JostMedium";
+    font-size: 12px;
+    span {
+      font-family: "JostRegular";
+    }
+  }
+
+  &__smallheadshots {
+    img {
+      width: 40px;
+      margin-left: 15px;
+      border-radius: 50%;
+      margin-top: 15px;
+    }
+  }
+  @media screen and (min-width: 603px) {
+    background-color: burlywood;
+
+    &__contaniner {
+      // this does nothing
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__image {
+      img {
+        width: 100px;
+      }
+    }
+  }
+}

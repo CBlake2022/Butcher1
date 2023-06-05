@@ -1,0 +1,48 @@
+.nav {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  grid-template-rows: repeat(2, min-content);
+}
+.nav__lblock {
+  display: flex;
+  align-items: start;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  gap: 5px;
+}
+.nav__lblock h1 {
+  font-size: 18px;
+  font-family: "JostSemiBold";
+  margin: 0;
+}
+.nav__lblock h1 span {
+  color: red;
+}
+.nav__links {
+  grid-row: 2/3;
+  grid-column: 1/4;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav__links li {
+  border-bottom: 1px lightgrey solid;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.nav__icons {
+  display: flex;
+  align-items: start;
+  grid-row: 1/2;
+  grid-column: 3/4;
+  gap: 18px;
+}
+.nav__toggle:checked ~ .nav__links {
+  display: block;
+}
+@media screen and (min-width: 480px) {
+  .nav body {
+    background-color: red;
+  }
+}/*# sourceMappingURL=Nav.css.map */

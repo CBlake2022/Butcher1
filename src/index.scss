@@ -1,0 +1,51 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "JostRegular";
+  src: url("./assets/fonts/Jost/Jost-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JostSemiBold";
+  src: url("./assets/fonts/Jost/Jost-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JostExtraBold";
+  src: url("./assets/fonts/Jost/Jost-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JostBold";
+  src: url("./assets/fonts/Jost/Jost-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JostMedium";
+  src: url("./assets/fonts/Jost/Jost-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HandWritting";
+  src: url("./assets/fonts/Just_Another_Hand/JustAnotherHand-Regular.ttf")
+    format("truetype");
+}
