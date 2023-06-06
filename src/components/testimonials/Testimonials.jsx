@@ -6,6 +6,9 @@ import headshot from "../../assets/images/headshot.png";
 import headshot1 from "../../assets/images/headshot1.png";
 import headshot2 from "../../assets/images/headshot2.png";
 import headshot3 from "../../assets/images/headshot3.png";
+import blackarrow from "../../assets/images/blackarrow.png";
+import redarrow from "../../assets/images/redarrow.png";
+import quote from "../../assets/images/quote.png";
 
 export default function Testimonials() {
   return (
@@ -14,6 +17,7 @@ export default function Testimonials() {
         <div className="testimonials__container">
           <div className="testimonials__image">
             <img src={headshot} alt="" />
+            {/* <img src={quote} alt="" /> */}
           </div>
           <div className="testimonials__rblock">
             <div className="testimonials__stars">
@@ -29,8 +33,12 @@ export default function Testimonials() {
             </h1>
             <div className="testimonials__founder">
               <p>
-                JOHN MACKNEY<span>co- Founder of SISKO</span>
+                JOHN MACKNEY &nbsp;<span>co-Founder of SISKO</span>
               </p>
+              <div className="testimonials__arrows">
+                <img src={blackarrow} alt="" />
+                <img src={redarrow} alt="" />
+              </div>
             </div>
             <div className="testimonials__smallheadshots">
               <img src={headshot1} alt="" />

@@ -1,6 +1,8 @@
 .testimonials {
   &__container {
     margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     padding: 0 30px 0 30px;
     max-width: 80%;
@@ -8,7 +10,9 @@
 
   &__image {
     img {
-      width: 250px;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
       border-radius: 50%;
     }
   }
@@ -25,37 +29,73 @@
     font-family: "JostSemiBold";
     font-size: 20px;
     margin-bottom: 10px;
+    text-align: justify;
+    line-height: 25px;
+  }
+
+  &__founder {
+    display: flex;
+    justify-content: space-between;
   }
 
   p {
     font-family: "JostMedium";
     font-size: 12px;
+    padding-top: 8px;
+
     span {
       font-family: "JostRegular";
+    }
+  }
+
+  &__arrows {
+    img {
+      // dont understand why padding created space between the arrows. I tried flex and margin-right but they did not work
+      padding-left: 15px;
+      width: 25px;
+    }
+
+    img:nth-child(2) {
+      width: 30px;
     }
   }
 
   &__smallheadshots {
     img {
       width: 40px;
-      margin-left: 15px;
+      height: 40px;
       border-radius: 50%;
+      object-fit: cover;
+      margin-left: 15px;
       margin-top: 15px;
     }
   }
   @media screen and (min-width: 603px) {
-    background-color: burlywood;
+    // background-color: burlywood;
 
-    &__contaniner {
-      // this does nothing
+    &__container {
       display: flex;
-      justify-content: space-between;
+      gap: 10px;
+      h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+    &__founder {
+      padding-left: 20px;
     }
 
     &__image {
       img {
-        width: 100px;
+        width: 160px;
+        height: 160px;
       }
+    }
+    &__stars {
+      // Kingsley could I have used something else?
+      text-align: justify;
+      margin-left: 23px;
     }
   }
 }
