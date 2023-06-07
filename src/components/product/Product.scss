@@ -1,0 +1,57 @@
+.product {
+  &__container {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  &__caption {
+    font-family: "HandWritting";
+    color: #f8ba12;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    font-family: "JostMedium";
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  &__descr {
+    font-family: "JostRegular";
+    font-size: 15px;
+    // color: #989fbc;
+  }
+
+  &__cards {
+    // background-color: blue;
+  }
+
+  &__images {
+    img {
+      width: 200px;
+      border: 1px gainsboro solid;
+      border-radius: 30px;
+    }
+  }
+
+  h3 {
+    font-family: "JostItalic";
+    color: #989fbc;
+    font-size: 15px;
+  }
+
+  h2 {
+    font-family: "JostSemiBold";
+    font-size: 20px;
+  }
+
+  p {
+    font-family: "JostRegular";
+    color: #989fbc;
+    font-size: 15px;
+    padding-right: 90px;
+    padding-left: 90px;
+  }
+}

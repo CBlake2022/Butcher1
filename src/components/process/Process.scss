@@ -40,9 +40,8 @@
 
   &__images {
     margin-bottom: 10px;
-
     background-repeat: no-repeat;
-    background-position: left 85px top 0px;
+    background-position: left 90px top 0px;
     background-size: contain;
 
     &--pink {
@@ -56,6 +55,11 @@
     &--green {
       background-image: url("../../assets/images/green-circle.png");
     }
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
   }
 
   &__orderstatus {

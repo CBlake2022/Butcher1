@@ -33,6 +33,7 @@
   }
 
   &__image {
+    margin-left: -15px;
     img {
       width: 100%;
     }
@@ -54,6 +55,7 @@
     }
 
     &__image {
+      margin-left: 0;
       img {
         max-width: 450px;
       }

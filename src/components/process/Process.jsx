@@ -1,6 +1,9 @@
 import React from "react";
 import "./Process.scss";
 import greypink from "../../assets/images/greypink.png";
+import meat from "../../assets/images/meat.png";
+import orderchoice from "../../assets/images/orderchoice.png";
+import deliveryman from "../../assets/images/deliveryman.png";
 
 export default function Process() {
   return (
@@ -16,7 +19,7 @@ export default function Process() {
           <div className="process__ordercards">
             <div className="process__ordercard">
               <div className="process__images process__images--pink">
-                <img src={greypink} alt="" />
+                <img src={meat} alt="" />
               </div>
               <div className="process__orderstatus">1. Choose your Meat</div>
               <p>
@@ -27,7 +30,7 @@ export default function Process() {
 
             <div className="process__ordercard">
               <div className="process__images process__images--blue">
-                <img src={greypink} alt="" />
+                <img src={orderchoice} alt="" />
               </div>
               <div className="process__orderstatus">2. Quick Order</div>
               <p>
@@ -38,7 +41,7 @@ export default function Process() {
 
             <div className="process__ordercard">
               <div className="process__images process__images--green">
-                <img src={greypink} alt="" />
+                <img src={deliveryman} alt="" />
               </div>
               <div className="process__orderstatus">3. Find Doorstep</div>
               <p>
