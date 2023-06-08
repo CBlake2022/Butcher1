@@ -7,9 +7,8 @@
   &__caption {
     font-family: "HandWritting";
     color: #f8ba12;
-    font-size: 30px;
+    font-size: 18px;
     letter-spacing: 2px;
-    margin-bottom: 15px;
   }
 
   &__title {
@@ -21,11 +20,14 @@
   &__descr {
     font-family: "JostRegular";
     font-size: 15px;
-    // color: #989fbc;
+    color: #989fbc;
   }
 
   &__cards {
     // background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 
   &__images {
@@ -36,11 +38,11 @@
     }
   }
 
-  h3 {
-    font-family: "JostItalic";
-    color: #989fbc;
-    font-size: 15px;
-  }
+  // h3 {
+  //   font-family: "JostItalic";
+  //   color: #989fbc;
+  //   font-size: 15px;
+  // }
 
   h2 {
     font-family: "JostSemiBold";
@@ -50,8 +52,33 @@
   p {
     font-family: "JostRegular";
     color: #989fbc;
-    font-size: 15px;
-    padding-right: 90px;
-    padding-left: 90px;
+    font-size: 16px;
+    // padding-right: 90px;
+    // padding-left: 90px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    border: 1px #fe5265 solid;
+    border-radius: 25px;
+    padding: 10px 45px;
+
+    span {
+      color: #fe5265;
+      font-size: 14px;
+      font-family: "JostRegular";
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    &__container {
+      // max-width: 800px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    &__cards {
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
 }

@@ -10,14 +10,15 @@ export default function Product() {
     <>
       <div className="product">
         <div className="product__container">
-          <div className="product__details">
-            <h3 className="product__caption">Recent Products</h3>
-            <h2 className="product__title">Recent Products</h2>
-            <p className="product__descr">
-              Simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy
-            </p>
-          </div>
+          <h3 className="product__caption">
+            <u>Resent Produ</u>cts
+          </h3>
+          <h2 className="product__title">Recent Products</h2>
+          <p className="product__descr">
+            Simply dummy text of the printing and typesetting industry. Lorem
+            Ipsum has been the industry's standard dummy
+          </p>
+
           <div className="product__cards">
             <div className="product__card">
               <div className="product__images">
@@ -29,6 +30,9 @@ export default function Product() {
                 Flowbase is the largest webflow resource site, with. Flowbase is
                 the.
               </p>
+              <div className="product__btn">
+                <span>Add To Cart - $12</span>
+              </div>
             </div>
 
             <div className="product__card">
@@ -41,6 +45,9 @@ export default function Product() {
                 Flowbase is the largest webflow resource site, with. Flowbase is
                 the.
               </p>
+              <div className="product__btn">
+                <span>Add To Cart - $12</span>
+              </div>
             </div>
 
             <div className="product__card">
@@ -53,6 +60,9 @@ export default function Product() {
                 Flowbase is the largest webflow resource site, with. Flowbase is
                 the.
               </p>
+              <div className="product__btn">
+                <span>Add To Cart - $12</span>
+              </div>
             </div>
             <div className="product__card">
               <div className="product__images">
@@ -64,6 +74,9 @@ export default function Product() {
                 Flowbase is the largest webflow resource site, with. Flowbase is
                 the.
               </p>
+              <div className="product__btn">
+                <span>Add To Cart - $12</span>
+              </div>
             </div>
           </div>
         </div>
