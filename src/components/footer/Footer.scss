@@ -1,0 +1,86 @@
+// .footer {
+//   background-color: #fff2f3;
+
+//   &__container {
+//     text-align: center;
+//   }
+
+//   &__link {
+//     margin-bottom: 30px;
+//     h1 {
+//       font-family: "JostRegular";
+//       color: #3f4767;
+//       font-size: 18px;
+//       // border: red 1px dotted;
+//       padding-bottom: 5px;
+//     }
+//     li {
+//       font-family: "JostRegular";
+//       color: #9097af;
+//       font-size: 14px;
+//       line-height: 30px;
+//     }
+//   }
+
+//   &__logo {
+//     margin-bottom: 40px;
+//     h1 {
+//       padding-bottom: 5px;
+//       font-size: 24px;
+//       font-family: "JostSemiBold";
+//       margin: 0;
+//       span {
+//         color: red;
+//       }
+//     }
+
+//     h2 {
+//       font-size: 18px;
+//       font-family: "HandWritting";
+//     }
+//   }
+
+//   input {
+//     display: block;
+//     border-radius: 20px;
+//     // padding: 10 60 10 ;
+//     padding-right: 60px;
+//     padding-left: 10px;
+//     padding-top: 10px;
+//     padding-bottom: 10px;
+//     border: none;
+//     font-size: 16px;
+//     font-family: "JostRegular";
+//     margin-bottom: 15px;
+//   }
+
+//   button {
+//     border-radius: 20px;
+//     font-family: "JostSemiBold";
+//     font-size: 14px;
+//     padding: 10px 40px;
+//     background-color: #3f4767;
+//     border: none;
+//     color: #ffffff;
+//   }
+
+//   p {
+//     margin-top: 40px;
+//     font-family: "JostRegular";
+//     color: #9097af;
+//     font-size: 14px;
+//   }
+
+//   @media screen and (min-width: 580px) {
+//     &__container {
+//       border: 1px dotted red;
+//       // display: grid;
+//       // grid-template-columns: repeat(5 min-content);
+//       // grid-template-rows: min-content min-content;
+//       // max-width: 80%;
+//     }
+//     &__link {
+//       // display: flex;
+//     }
+//   }
+// }

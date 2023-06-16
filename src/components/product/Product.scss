@@ -2,59 +2,71 @@
   &__container {
     text-align: center;
     margin-top: 80px;
+    // the margins below had bo effect
+    // margin-right: auto;
+    // margin-left: auto;
   }
 
-  &__caption {
-    font-family: "HandWritting";
-    color: #f8ba12;
-    font-size: 18px;
-    letter-spacing: 2px;
-  }
+  &__headings {
+    margin-bottom: 10px;
+    h3 {
+      font-family: "HandWritting";
+      color: #f8ba12;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-family: "JostMedium";
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
 
-  &__title {
-    font-family: "JostMedium";
-    font-size: 25px;
-    margin-bottom: 15px;
-  }
-
-  &__descr {
-    font-family: "JostRegular";
-    font-size: 15px;
-    color: #989fbc;
-  }
-
-  &__cards {
-    // background-color: blue;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  &__images {
-    img {
-      width: 200px;
-      border: 1px gainsboro solid;
-      border-radius: 30px;
+    p {
+      font-family: "JostRegular";
+      font-size: 13px;
+      color: #989fbc;
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
 
-  // h3 {
-  //   font-family: "JostItalic";
-  //   color: #989fbc;
-  //   font-size: 15px;
-  // }
+  &__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
-  h2 {
-    font-family: "JostSemiBold";
-    font-size: 20px;
+    h3 {
+      font-family: "JostItalic";
+      color: #989fbc;
+      font-size: 8px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: "JostSemiBold";
+      font-size: 12px;
+    }
+
+    p {
+      font-family: "JostRegular";
+      color: #989fbc;
+      font-size: 10px;
+    }
   }
 
-  p {
-    font-family: "JostRegular";
-    color: #989fbc;
-    font-size: 16px;
-    // padding-right: 90px;
-    // padding-left: 90px;
+  &__image {
+    background-color: #f8f8f8;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+    img {
+      background-color: transparent;
+      width: 180px;
+      height: 200px;
+      object-fit: contain;
+    }
   }
 
   &__btn {
@@ -62,23 +74,39 @@
     border: 1px #fe5265 solid;
     border-radius: 25px;
     padding: 10px 45px;
+    margin-top: 20px;
 
     span {
       color: #fe5265;
-      font-size: 14px;
+      font-size: 8px;
       font-family: "JostRegular";
     }
   }
 
   @media screen and (min-width: 600px) {
     &__container {
-      // max-width: 800px;
+      max-width: 800px;
       margin-left: 40px;
       margin-right: 40px;
+      border: 1px red dotted;
+      margin: 70px auto 0;
     }
+
+    &__headings {
+      margin-left: 220px;
+      margin-right: 220px;
+    }
+
     &__cards {
       flex-direction: row;
-      justify-content: space-around;
+      gap: 10px;
+      margin-top: 45px;
+    }
+
+    span {
+      color: #e31244;
+      font-size: 10px;
+      font-family: "JostRegular";
     }
   }
 }

@@ -1,0 +1,89 @@
+.faq {
+  margin-top: 90px;
+  &__container {
+    // background-color: #f0f0f0;
+    margin: 0 auto;
+    // this did not centered until the max-width was added
+    max-width: 80%;
+  }
+
+  &__topblock {
+    text-align: center;
+    margin-bottom: 40px;
+
+    h3 {
+      color: #f8ba12;
+      font-family: "HandWritting";
+      font-size: small;
+    }
+
+    h2 {
+      font-family: "JostMedium";
+      font-size: medium;
+    }
+
+    p {
+      font-family: "JostRegular";
+      color: #949bb6;
+      font-size: 12px;
+    }
+  }
+
+  &__largecard {
+    border: 1px solid rgb(237, 228, 228);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px 10px 30px;
+
+    p {
+      font-family: "JostRegular";
+      color: #656d89;
+      font-size: 12px;
+    }
+  }
+  // reuse
+  h5 {
+    margin-bottom: 20px;
+    font-family: "JoshRegular";
+    color: #272d41;
+  }
+
+  &__questiondropdown {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img {
+    // reusing img
+    height: 8px;
+    width: 10px;
+  }
+
+  &__smallcards {
+  }
+
+  &__smallcard {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(237, 228, 228);
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 588px) {
+    max-width: 100%;
+    background-image: url("../../assets/images/bgmeat.png"),
+      url("../../assets/images/yellow-small-element.png"),
+      url("../../assets/images/bglargecheese.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: right, left 80px top 60px, left bottom 100px;
+    background-size: 250px 500px, 30px 30px, 150px 150px;
+    &__container {
+      max-width: 400px;
+      margin-bottom: 300px;
+    }
+  }
+}

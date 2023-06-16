@@ -7,6 +7,9 @@ import Process from "./components/process/Process";
 import Company from "./components/company/Company";
 import Testimonials from "./components/testimonials/Testimonials";
 import Product from "./components/product/Product";
+import Faq from "./components/faq/Faq";
+
+import Footer1 from "./components/footer1/Footer1";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +23,8 @@ function App() {
       <Company />
       <Testimonials />
       <Product />
+      <Faq />
+      <Footer1 />
     </>
   );
 }
